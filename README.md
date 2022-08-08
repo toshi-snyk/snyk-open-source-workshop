@@ -1,10 +1,17 @@
-# Introduction to Snyk Open Source Workshop
+# Snyk Open Source ワークショップ
 
-Snyk is an open source security platform designed to help software-driven businesses enhance developer security. Snyk's dependency scanner makes it the only solution that seamlessly and proactively finds, prioritizes and fixes vulnerabilities and license violations in open source dependencies
+Snyk は オープンソースソフトウェアに対応するセキュリティプラットフォームで、ソフトウェアドリブンな企業によるデベロッパーセキュリティの推進を支援します。Snyk の脆弱性スキャン機能は、オープンソースパッケージに内在する脆弱性とライセンス違反の検出・トリアージ・修正を、シームレスかつスムーズに実現する唯一のソリューションです。
 
-Snyk's GitHub integration allows developers to easily onboard their GitHub repositories to scan and continuously monitor them for open source security and license risks. This integration also enables Snyk's Automated Fix Pull Requests and adds Snyk checks on every Pull Request.
+加えて、Snyk の GitHub インテグレーション機能を活用すれば、GitHub 上のリポジトリを容易にインポートでき、オープンソースに由来するセキュリティリスクとライセンスリスクをスキャンして継続的にモニタリングすることができます。このインテグレーションではさらに、Snyk による自動修正プルリクエストの作成と、プルリクエストに対する自動チェックの実行が可能です。
 
-In this **hands-on** demo we will achieve the follow
+## 事前準備
+
+GitHub アカウント (パブリックであること) - http://github.com
+git CLI - https://git-scm.com/downloads
+snyk CLI - https://docs.snyk.io/snyk-cli/install-the-snyk-cli (Snyk CLI のインストールとアップデート)
+Snyk アカウント - http://app.snyk.io
+
+## このハンズオンワークショップの概要
 
 * [Step 1 Fork the highly vulnerable Goof Application](#step-1-fork-the-highly-vulnerable-goof-application)
 * [Step 2 Configure GitHub Integration](#step-2-configure-gitHub-integration)
@@ -15,18 +22,9 @@ In this **hands-on** demo we will achieve the follow
 * [Step 7 Viewing Dashboard Reports](#step-7-viewing-dashboard-reports)
 * [Step 8 IDE integration VS Code](#step-8-ide-integration-vs-code)
 
-## Prerequisites
+# ワークショップの各ステップ
 
-* public GitHub account - http://github.com
-* git CLI - https://git-scm.com/downloads
-* snyk CLI - https://support.snyk.io/hc/en-us/articles/360003812538-Install-the-Snyk-CLI
-* Registered account on Snyk App - http://app.snyk.io
-
-_NOTE: Please ensure you have meet the Prerequisites prior to starting this workshop_ 
-
-# Workshop Steps
-
-_Note: It is assumed your using a mac for these steps but it should also work on windows or linux with some modifications to the scripts potentially_
+注: 以下のステップでは主に Mac の利用を想定していますが、Windows または Linux 上でもスクリプトを一部変更することで対応できます。
 
 ## Step 1 Fork the highly vulnerable Goof Application
 
