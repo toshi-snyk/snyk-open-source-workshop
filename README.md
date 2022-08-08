@@ -6,10 +6,10 @@ Snyk は オープンソースソフトウェアに対応するセキュリテ�
 
 ## 事前準備
 
-GitHub アカウント (パブリックであること) - http://github.com
-git CLI - https://git-scm.com/downloads
-snyk CLI - https://docs.snyk.io/snyk-cli/install-the-snyk-cli (Snyk CLI のインストールとアップデート)
-Snyk アカウント - http://app.snyk.io
+* GitHub アカウント (パブリックであること) - http://github.com
+* git CLI - https://git-scm.com/downloads
+* snyk CLI - https://docs.snyk.io/snyk-cli/install-the-snyk-cli ([Snyk CLI のインストールとアップデート](https://qiita.com/ToshiAizawa/items/c090cbd525e45cc5ae51))
+* Snyk アカウント - http://app.snyk.io
 
 ## このハンズオンワークショップの概要
 
